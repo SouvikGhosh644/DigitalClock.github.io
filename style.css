@@ -39,3 +39,14 @@ footer{
     color:rgb(250, 247, 252);
     font-size: 200px;
 }
+
+@media (max-width: 768px) {
+/* Reduce the font size on smaller screens */
+      #date {
+           font-size: 20px;
+      }
+            
+      #clock {
+           font-size: 50px;
+      }
+}
